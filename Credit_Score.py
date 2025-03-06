@@ -14,6 +14,8 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, class
 from sklearn.preprocessing import LabelEncoder, MinMaxScaler
 from imblearn.over_sampling import SMOTE
 
+Print("Credit Score Prediction")
+
 # Load the dataset
 df_train_original = pd.read_csv(r"..\Desktop\Rakesh_DS\DataSet\Credit_Score_DataSet.csv",low_memory=False)
 df_train = df_train_original.copy()
